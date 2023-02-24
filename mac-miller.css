@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Khand&family=Rubik+Mono+One&display=swap");
+
+body {
+  background-color: rgb(236, 213, 181);
+}
+
+#cabecera {
+  font-size: larger;
+  max-width: 800px;
+  min-width: 400px;
+  text-align: center;
+  margin: 15px auto;
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+#one {
+  background-color: blueviolet;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  left: 150px;
+  top: 40px;
+}
+
+#two {
+  background-color: aqua;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  left: 350px;
+  top: 30px;
+}
+
+#two figcaption{
+  text-decoration: underline;
+  font-size: 1.4em;
+  font-family: "Khand", sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
+  position: relative;
+  bottom: 20px;
+}
+
+#three{
+  display: inline-block;
+  position: relative;
+  left: 90px;
+  top: 100px;
+}
+
+#three p {
+  color: aliceblue;
+  position: absolute;
+  left: 70px;
+  text-decoration: underline;
+  font-family: "hoohooregula";
+}
+
+#three figure{
+  padding: 10px;
+}
+
+
+#four{
+  background-color: blue;
+  display: inline-block;
+
+}
+
+#four figure{
+  background-color: burlywood;
+  padding: 10px;
+  position: absolute;
+}
+
